@@ -30,7 +30,7 @@ fi
 if [ "$3" != "" ]; then
 	git push origin $3
 else
-	echo "Pushing the current branch since third argument was not provided"	
+	echo "Pushing in remote branch with same name as current branch since third argument was not provided"	
 	#push the current branch in remote
 	git push origin $(git branch | grep "* " | cut -d ' ' -f2)
 fi
