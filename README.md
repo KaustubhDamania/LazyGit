@@ -1,5 +1,4 @@
 # LazyGit
-One stop solution for automating Git commits
 
 A Shell Script which adds, commits and pushes to the remote repository, all with one click!
 
