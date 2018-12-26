@@ -10,11 +10,11 @@ sudo chmod +x script.sh
 ```
 The 3 arguments specified above are optional.
 
-If directory is not given, then current directory is assumed as directory where the repository exists
+- If directory is not given, then current directory is assumed as directory where the repository exists
 
-If commit message is not given, then configured text editor is opened for writing commit message
+- If commit message is not given, then configured text editor is opened for writing commit message
 
-If name of remote branch is not given, then the current branch is considered.
+- If name of remote branch is not given, then the current branch's name is considered.
 
 For example,
 
