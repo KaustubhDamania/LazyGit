@@ -8,6 +8,7 @@ if [ "$1" != "" ]; then
 	cd "$1"
 else
 	echo "First argument not provided, assuming the current directory as directory of repo"
+	$1="."
 fi
 
 #add files in the staging area
