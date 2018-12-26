@@ -1,6 +1,6 @@
 # LazyGit
 
-A Shell Script which adds, commits and pushes to the remote repository, all with one click!
+A Bash Script which adds, commits and pushes to the remote repository, all with one click!
 
 To execute this script:
 
