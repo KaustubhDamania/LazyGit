@@ -1,14 +1,18 @@
 #!/bin/bash
 
-#set -x #outputs commands as they run
 set -e #exit from script if any command returns non-zero code
+
+#Arguments:
+#1: The directory where the git repository exists
+#2: Commit message
+#3: Name of the remote branch where the repo is to be pushed 
+
 
 if [ "$1" != "" ]; then
 	echo $1
 	cd "$1"
 else
 	echo "First argument not provided, assuming the current directory as directory of repo"
-	$1="."
 fi
 
 #add files in the staging area
