@@ -16,7 +16,7 @@ else
 fi
 
 #add files in the staging area
-git add .
+git add -A
 
 #commit the changes, a text editor will open for commit message
 if [ "$2" != "" ]; then
