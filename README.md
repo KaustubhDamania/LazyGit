@@ -14,7 +14,7 @@ The 3 arguments specified above are optional.
 
 - If commit message is not given, then configured text editor is opened for writing commit message
 
-- If name of remote branch is not given, then the current branch's name is considered.
+- If name of remote branch is not given, then the current branch's name is considered as the remote branch's name.
 
 For example,
 
