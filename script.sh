@@ -9,8 +9,9 @@ set -e #exit from script if any command returns non-zero code
 
 
 if [ "$1" != "" ]; then
-	echo $1
+	echo "Directory provided: $1"
 	cd "$1"
+
 else
 	echo "First argument not provided, assuming the current directory as directory of repo"
 fi
@@ -28,6 +29,7 @@ fi
 
 #push the changes in the repo
 if [ "$3" != "" ]; then
+    echo "Name of branch provided: $3"
 	git push origin $3
 else
 	echo "Pushing in remote branch with same name as current branch since third argument was not provided"	
