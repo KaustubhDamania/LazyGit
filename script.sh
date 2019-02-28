@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e #exit from script if any command returns non-zero code
+#exit from script if any command returns non-zero code
+set -e
 
 #Arguments:
 #1: The directory where the git repository exists
