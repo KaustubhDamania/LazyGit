@@ -23,6 +23,13 @@ For example,
 ```
 The above line creates a commit "Random commit message" in the current directory (because of the ".") and pushes it to a remote branch named "remote-branch".
 
+# Usage
+### With commit message argument
+![Alt Text](./example0.gif)
+### Without commit message argument
+![Alt Text](./example1.gif)
+
+
 # Note
 - Before executing the script, make sure that remote URL is configured.
 - Also, the commits will be made in current branch so switch to the desired branch before executing the script.
