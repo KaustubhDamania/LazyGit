@@ -4,7 +4,7 @@
 set -e
 
 #Arguments:
-#1: The directory where the git repository exists
+#1: The directory where the git repository exists.
 #2: Commit message.
 #3: Name of the remote branch where the repo is to be pushed.
 
